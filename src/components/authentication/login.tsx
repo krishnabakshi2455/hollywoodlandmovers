@@ -73,7 +73,7 @@ export function LoginForm({
                 if (data.user.role.toLowerCase() === "dispatcher") {
                     router.push("/dispatcher");
                 } else if (data.user.role === "Admin") {
-                    router.push("/admin");
+                    router.push("/admindashboard2");
                 }else {
                     router.push("/driver");
                 }
